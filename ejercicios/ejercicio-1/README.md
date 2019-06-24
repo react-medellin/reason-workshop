@@ -1,4 +1,6 @@
-# Ejercicio 1
+# Estructuras de datos
+
+## Ejercicio
 
 - Creemos una estructura de datos para representar un espacio de coworking de la ciudad.
 - Cada espacio debe tener:
@@ -11,9 +13,9 @@
   - imagen (opcional)
 - Deben crear 2 espacios y guardarlos en la variable `coworkings`
 
-**Tips:**
+## Tips
 
 - Pueden usar listas, variants y optionals
 - Pueden usar https://www.uuidgenerator.net/ para generar los IDs
 
-## Taller Reason - React Medellín 2019
+**Taller Reason - React Medellín 2019**
