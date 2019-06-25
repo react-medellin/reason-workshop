@@ -10,24 +10,23 @@ npm run webpack # inicia webpack (correr en otro terminal)
 
 ## Ejercicio
 
-- Utilizar el archivo de coworking de los ejercicios anteriores para generar el siguiente HTML
-
-```html
-<ul>
-  <li>Workia</li>
-  <li>Seedspace</li>
-  <li>Selina</li>
-</ul>
-```
+- Renderizar la imagen de cada coworking - ten en cuenta que la imagen puede no estar disponible
+- Las imágenes son muy grandes, debemos agregar estilos en línea. [Documentación](https://reasonml.github.io/reason-react/docs/en/style)
 
 ### Puntos extra
 
-- Crear un componente `Coworking` que imprima el nombre y la dirección de cada coworking
+- Crear un componente `Imagen`
 
 ## Tips
 
-- Utiliza `React.string(elString)` para imprimir los nombres de los coworkings
-- Utiliza `React.array` para imprimir el conjunto de li's
-- Básate en los ejercicios anteriores para manipular listas y poder mostrar los elementos necesarios
-- [Documentación oficial](https://reasonml.github.io/reason-react/docs/en/what-and-why)
+- Puedes utilizar el `switch`
+
+```
+switch (coworking.propiedad) {
+  | None => <div />
+  | Some(valor) => <div>{React.string(valor)}</div>
+}
+```
+
+- [Pattern Matching - Documentación oficial](https://reasonml.github.io/docs/en/pattern-matching)
 - Diviértanse :)
