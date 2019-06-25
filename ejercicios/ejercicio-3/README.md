@@ -20,6 +20,10 @@ npm run webpack # inicia webpack (correr en otro terminal)
 </ul>
 ```
 
+### Puntos extra
+
+- Crear un componente `Coworking` que imprima el nombre y la dirección de cada coworking
+
 ## Tips
 
 - Utiliza `React.string(elString)` para imprimir los nombres de los coworkings
