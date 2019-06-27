@@ -4,8 +4,8 @@
 
 ```shell
 npm install
-npm start # inicia bsb
-npm run webpack # inicia webpack (correr en otro terminal)
+npm start # inicia bsb para compilar Reason en Javascript
+npm run webpack # inicia webpack (correr en otro terminal). Nuestra app debería estar lista en localhost:8000
 ```
 
 ## Ejercicio

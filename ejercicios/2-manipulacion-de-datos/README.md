@@ -9,8 +9,10 @@ Mostrar utilizando [Js.log](https://reasonml.github.io/docs/en/interop#just-dump
 
 ## Flujo de trabajo
 
-- En una terminal, correr: `npm start`
-- En otra terminal, correr: `node Index.bs.js`
+- En una terminal, correr: `npm start`.
+  Esto compila ReasonML a Javascript utilizando Bucklescript (bsb)
+- En otra terminal, correr: `node Index.bs.js`.
+  Con este comando vamos a correr el Javascript compilado por Bucklescript
 
 ## Tips
 
