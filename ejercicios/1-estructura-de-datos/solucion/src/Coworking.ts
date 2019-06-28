@@ -1,3 +1,9 @@
+/**
+ * El fin de este archivo es comparar
+ * cómo sería escribir el mismo ejercicio en TS
+ *
+ * Bucklescript genera archivos .js
+ */
 enum Estado {
   Abierto = "Abierto",
   Cerrado = "Cerrado"

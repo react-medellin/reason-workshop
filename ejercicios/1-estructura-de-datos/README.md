@@ -1,5 +1,9 @@
 # Estructuras de datos
 
+## Flujo de trabajo
+
+`npm install`
+
 ## Ejercicio
 
 - Creemos una estructura de datos para representar un espacio de coworking de la ciudad.
